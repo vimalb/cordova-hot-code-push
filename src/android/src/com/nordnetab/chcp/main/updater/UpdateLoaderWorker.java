@@ -91,7 +91,7 @@ class UpdateLoaderWorker implements WorkerTask {
         }
 
         // check if there is a new content version available
-        if (newContentConfig.getReleaseVersion().compareTo(oldAppConfig.getContentConfig().getReleaseVersion()) < 0) {
+        if (newContentConfig.getReleaseVersion().compareTo(oldAppConfig.getContentConfig().getReleaseVersion()) <= 0) {
             setNothingToUpdateResult(newAppConfig);
             return;
         }
