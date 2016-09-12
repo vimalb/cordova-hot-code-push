@@ -89,7 +89,7 @@
         }
         
         // check if new version is available
-        if ([newAppConfig.contentConfig.releaseVersion isEqualToString:_oldAppConfig.contentConfig.releaseVersion]) {
+        if ([newAppConfig.contentConfig.releaseVersion compare:_oldAppConfig.contentConfig.releaseVersion] != NSOrderedDescending) {
             [self notifyNothingToUpdate:newAppConfig];
             return;
         }
