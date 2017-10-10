@@ -1,5 +1,24 @@
 # Change Log
 
+## 1.5.3 (2016-05-27)
+
+**Bug fixes:**
+
+- [Issue #295](https://github.com/nordnet/cordova-hot-code-push/issues/295). Fixed build issues with Cordova 7 on iOS. Merged [pull request #296](https://github.com/nordnet/cordova-hot-code-push/pull/296), thanks to [@chauthai](https://github.com/chauthai).
+
+**Documentation:**
+
+- Merged [pull request #281](https://github.com/nordnet/cordova-hot-code-push/pull/281). Thanks to [@cadesalaberry](https://github.com/cadesalaberry).
+
+## 1.5.2 (2016-11-06)
+
+**Bug fixes:**
+
+- [Issue #213](https://github.com/nordnet/cordova-hot-code-push/issues/213). Large sync lead to timeout on iOS. Merged [pull request #217](https://github.com/nordnet/cordova-hot-code-push/pull/217), thanks to [@bbreijer](https://github.com/bbreijer). Now iOS version should be more memory efficient when loading large set of files. It also can now download large files.
+- Merged [pull request #218](https://github.com/nordnet/cordova-hot-code-push/pull/218). Fixes build failure on the after_prepare hook. Thanks to [@warent](https://github.com/warent).
+- [Issue #228](https://github.com/nordnet/cordova-hot-code-push/issues/228). Added missing error code `NEW_APPLICATION_CONFIG_IS_INVALID` to JS API.
+- [Issue #229](https://github.com/nordnet/cordova-hot-code-push/issues/229). Thanks to [@zwwhappy](https://github.com/zwwhappy) for [pull request #225](https://github.com/nordnet/cordova-hot-code-push/pull/225), and [@sfnt](https://github.com/sfnt) for [pull request #231](https://github.com/nordnet/cordova-hot-code-push/pull/231).
+
 ## 1.5.1 (2016-09-06)
 
 **Bug fixes:**
