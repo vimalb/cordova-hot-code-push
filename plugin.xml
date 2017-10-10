@@ -101,18 +101,10 @@
     <header-file src="src/ios/Utils/HCPCleanupHelper.h" target-dir="Utils/"/>
     <source-file src="src/ios/Utils/NSBundle+HCPExtension.m" target-dir="Utils/"/>
     <header-file src="src/ios/Utils/NSBundle+HCPExtension.h" target-dir="Utils/"/>
-<<<<<<< HEAD
-
     <source-file src="src/ios/Utils/NSData+HCPHash.m" target-dir="Utils/"/>
     <header-file src="src/ios/Utils/NSData+HCPHash.h" target-dir="Utils/"/>
-
     <source-file src="src/ios/Utils/NSString+HCPHash.m" target-dir="Utils/"/>
     <header-file src="src/ios/Utils/NSString+HCPHash.h" target-dir="Utils/"/>
-
-=======
-    <source-file src="src/ios/Utils/NSData+HCPMD5.m" target-dir="Utils/"/>
-    <header-file src="src/ios/Utils/NSData+HCPMD5.h" target-dir="Utils/"/>
->>>>>>> 18f500ab4eed4071e0910acd64a37c1a04ee83f7
     <source-file src="src/ios/Utils/NSError+HCPExtension.m" target-dir="Utils/"/>
     <header-file src="src/ios/Utils/NSError+HCPExtension.h" target-dir="Utils/"/>
     <source-file src="src/ios/Utils/NSFileManager+HCPExtension.m" target-dir="Utils/"/>
